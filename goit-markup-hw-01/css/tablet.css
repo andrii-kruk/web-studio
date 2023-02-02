@@ -1,0 +1,171 @@
+@media screen and (min-width: 768px) {
+  .container {
+    width: 768px;
+  }
+
+  /* --------------------- HEADER ---------------------- */
+
+  .menu-button {
+    display: none;
+  }
+  .mobile-menu {
+    display: none;
+  }
+  .nav-list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .nav-contacts {
+    display: block;
+  }
+
+  .nav-contacts-list {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  header .nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+
+  /* --------------------- HERO ---------------------- */
+
+  .hero-section {
+    padding-bottom: 108px;
+
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/bg-hero-tab.jpg);
+  }
+
+  .hero {
+    font-size: 56px;
+    line-height: 1.07;
+    margin-bottom: 40px;
+  }
+
+  /* --------------------- ADVANTAGES ---------------------- */
+  .advantages-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+  .advantages-list .item {
+    max-width: 356px;
+  }
+
+  .advantages-list .desc {
+    margin: 0;
+  }
+
+  /* --------------------- TEAM ---------------------- */
+  .team-section {
+    padding-bottom: 104px;
+  }
+
+  .team-list {
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 64px;
+  }
+  .team-item {
+    margin: 0;
+  }
+
+  /* --------------------- CUSTOMERS ---------------------- */
+
+  .customers-list {
+    column-gap: 24px;
+    row-gap: 72px;
+  }
+
+  /* --------------------- FOOTER ---------------------- */
+
+  .footer .container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 72px;
+
+    padding-left: 108px;
+  }
+
+  .footer-flex-wrap {
+    flex-direction: row;
+    align-items: center;
+
+    
+  }
+
+  .footer-flex-wrap .logo {
+    text-align: left;
+    padding: 0;
+  }
+
+  .footer-subscribe-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-subscribe .subtitle {
+    text-align: left;
+  }
+
+  .footer-input {
+    margin: 0;
+  }
+  .subscribe-button {
+    margin: 0;
+  }
+
+  /* --------------------- Portfolio Page ---------------------- */
+
+  .portfolio-section {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+
+  .filters-list {
+    justify-content: center;
+    gap: 24px;
+  }
+
+  .filters-list .item:nth-child(3) {
+    width: 63px;
+  }
+
+  .portfolio-list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 72px;
+    column-gap: 24px;
+  }
+
+  .portfolio-list .item {
+    width: 356px;
+  }
+
+  /* --------------------- Portfolio Page ---------------------- */
+  .backdrop {
+    padding: 0;
+  }
+  
+  .modal {
+    width: 408px;
+    min-height: 584px;
+  }
+}
